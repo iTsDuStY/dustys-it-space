@@ -1,0 +1,61 @@
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 30px 20px;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+}
+
+main, header, footer, nav {
+  max-width: 1100px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  color: #5eead4;
+}
+
+a {
+  color: #5eead4;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+section, article {
+  margin: 24px 0;
+  padding: 24px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+}
+
+button {
+  background: #5eead4;
+  color: #0f172a;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+
+  section, article {
+    padding: 16px;
+  }
+}
