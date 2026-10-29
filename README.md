@@ -1,30 +1,37 @@
 # Dusty's IT Space
 
-A lightweight, no-build, static portfolio and homelab documentation website for **dustysitspace.com**, intended for GitHub Pages.
+Welcome to **Dusty's IT Space**, my personal IT portfolio and homelab documentation repository.
 
-## Publish to your existing repository
+🌐 **Website:** https://dustysitspace.com
 
-1. Download and extract the ZIP.
-2. Open your GitHub repository and choose **Add file → Upload files**.
-3. Upload **the contents of the `dustys-it-space` folder**, including `index.html`, `about.html`, and the `assets/`, `projects/`, and `labs/` folders. **Do not upload the containing folder itself**—`index.html` must remain at the repository root.
-4. Commit changes to `main`. Your configured GitHub Pages deployment should run automatically.
-5. Refresh https://dustysitspace.com after the deployment succeeds.
+## About This Project
 
-**Important:** If you already have an `index.html` from the initial starter page, replace it with the one in this package. Your existing GitHub Pages custom-domain settings and DNS records should stay unchanged. If you see a `CNAME` file in your repository, keep it; don't overwrite or remove it. If you set your custom domain in Settings → Pages, GitHub may create this file for you.
+This website documents my hands-on experience and continued learning in IT support, computer networking, systems administration, and cybersecurity.
 
-## Editing
+I'm CompTIA A+ certified and currently developing my networking skills through CCNA studies, practical labs, and real-world field IT work.
 
-- `index.html` — homepage and featured projects
-- `about.html` — bio and experience
-- `projects/` — portfolio writeups
-- `labs/` — CCNA and troubleshooting notes
-- `assets/style.css` — design colors, spacing, mobile layout
+## Featured Projects
 
-No PHP, database, JavaScript framework, or paid hosting is required.
+- **CCNA Networking Labs:** VLANs, 802.1Q trunking, inter-VLAN routing, OSPF, ACLs, and troubleshooting.
+- **Windows Server & Active Directory:** Domain controllers, DNS, DHCP, Group Policy, and client administration.
+- **FortiGate Firewall:** Firewall policies, NAT, LAN/WAN networking, and traffic verification.
+- **EVE-NG, GNS3 & Containerlab:** Virtual networking topologies and hands-on configuration.
+- **Linux & Network Monitoring:** Linux administration, network services, and monitoring tools.
 
-## Before making it public
+## Technologies
 
-- Read every paragraph and edit claims to match what you're comfortable publishing.
-- Do **not** upload live credentials, router configurations containing secrets, private hostnames, client names or records, real network access information, or unredacted work-order material.
-- Add screenshots only after stripping identifying and confidential information.
-- Optionally add a public professional GitHub profile or contact method later.
+Cisco IOS · Windows Server · Linux · PowerShell · Python · Wireshark · Docker · VMware · VirtualBox · FortiGate
+
+## Purpose
+
+My goal is to demonstrate technical skills through practical projects, document troubleshooting processes, and build a portfolio of hands-on IT experience.
+
+## Website
+
+Built with HTML and CSS and hosted using GitHub Pages.
+
+**Live website:** https://dustysitspace.com
+
+---
+
+*Learning by building. Documenting what works.*
